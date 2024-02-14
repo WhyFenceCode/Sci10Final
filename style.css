@@ -63,10 +63,10 @@ body{
     transition: opacity 0.2s ease-in-out;
 }
 
-.tricard-grid-item:hover img {
+.points-item:hover img {
     opacity: 0;
 }
 
-.tricard-grid-item:hover {
+.points-item:hover {
     color:black;
 }
