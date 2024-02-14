@@ -7,21 +7,50 @@
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "pointsa pointsb pointsc pointsd pointse"
-      "teama teama . teamb teamb";
-  }
+        "pointsa pointsb pointsc pointsd pointse"
+        "teama teama . teamb teamb";
+}
+
+.teama { grid-area: teama; }
+
+.teamb { grid-area: teamb; }
+
+.pointsa { grid-area: pointsa; }
+
+.pointsb { grid-area: pointsb; }
+
+.pointsc { grid-area: pointsc; }
+
+.pointsd { grid-area: pointsd; }
+
+.pointse { grid-area: pointse; }
+
+.points-item {
+    color:white;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+    overflow: hidden;
+}  
+
+.points-item h2 {
+    margin: 0;
+    z-index: 1;
+}
   
-  .teama { grid-area: teama; }
-  
-  .teamb { grid-area: teamb; }
-  
-  .pointsa { grid-area: pointsa; }
-  
-  .pointsb { grid-area: pointsb; }
-  
-  .pointsc { grid-area: pointsc; }
-  
-  .pointsd { grid-area: pointsd; }
-  
-  .pointse { grid-area: pointse; }
-  
+.points-item img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+    transition: opacity 0.2s ease-in-out;
+}
