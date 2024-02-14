@@ -45,7 +45,7 @@ body{
     overflow: hidden;
 }  
 
-.points-item h2 {
+.points-item h1 {
     margin: 0;
     z-index: 1;
 }
