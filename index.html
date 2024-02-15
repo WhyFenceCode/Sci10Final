@@ -5,30 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Science 10 Final Project: SkyCrane and MLV</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
   </head>
   <body>
-    <div class="container">
-        <div class="teama score red"><h1>0</h1></div>
-        <div class="teamb score blue"><h1>0</h1></div>
-        <div class="pointsa points-item">
-            <h1>100</h1>
-            <img src="https://www.nasa.gov/wp-content/uploads/2023/03/593484main_pia14839_full.jpg" alt="Image 3">
+    <div class="full">
+      <div class="container">
+          <div class="teama score red"><h1>0</h1></div>
+          <div class="teamb score blue"><h1>0</h1></div>
+          <div class="pointsa points-item" onClick="question(1)">
+              <h1>100</h1>
+              <img src="https://www.nasa.gov/wp-content/uploads/2023/03/593484main_pia14839_full.jpg" alt="Image 3">
+          </div>
+          <div class="pointsb points-item" onClick="question(2)">
+              <h1>200</h1>
+              <img src="https://www.science.org/do/10.1126/science.abh1704/full/landing_1280p_0-1644902886520.jpg" alt="Image 3">
+          </div>
+          <div class="pointsc points-item" onClick="question(3)">
+              <h1>300</h1>
+              <img src="https://mars.nasa.gov/imgs/mars2020/mars2020-sky-crane.jpg" alt="Image 3">
+          </div>
+          <div class="pointsd points-item" onClick="question(4)">
+              <h1>400</h1>
+              <img src="https://photojournal.jpl.nasa.gov/jpegMod/PIA14840_modest.jpg" alt="Image 3">
+          </div>
+          <div class="pointse points-item" onClick="question(5)">
+              <h1>500</h1>
+              <img src="https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA24318.jpg" alt="Image 3">
+          </div>
         </div>
-        <div class="pointsb points-item">
-            <h1>200</h1>
-            <img src="https://www.science.org/do/10.1126/science.abh1704/full/landing_1280p_0-1644902886520.jpg" alt="Image 3">
-        </div>
-        <div class="pointsc points-item">
-            <h1>300</h1>
-            <img src="https://mars.nasa.gov/imgs/mars2020/mars2020-sky-crane.jpg" alt="Image 3">
-        </div>
-        <div class="pointsd points-item">
-            <h1>400</h1>
-            <img src="https://photojournal.jpl.nasa.gov/jpegMod/PIA14840_modest.jpg" alt="Image 3">
-        </div>
-        <div class="pointse points-item">
-            <h1>500</h1>
-            <img src="https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA24318.jpg" alt="Image 3">
+        <div class="question up">
+          <div class="question-text"><h1 class="question-text-h1">Question Text</h1></div>
+          <div class="awnser-text"><h2 class="awnser-text-h2" onclick="showAwns()">Show Awnser</h2></div>
+          <div class="button-wrapper">
+            <div class="awnser-button red2"><h1 onclick="assignPoints('red')">Red</h1></div>
+            <div class="awnser-button blue2"><h1 onclick="assignPoints('blue')">Blue</h1></div>
+          </div>
         </div>
       </div>
   </body>
