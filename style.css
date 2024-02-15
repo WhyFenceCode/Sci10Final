@@ -48,6 +48,7 @@ body{
 .points-item h1 {
     margin: 0;
     z-index: 1;
+    font-family: 'Montserrat', sans-serif;
 }
   
 .points-item img {
@@ -69,4 +70,29 @@ body{
 
 .points-item:hover {
     color:black;
+}
+
+.blue {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.red {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.blue h1 {
+    color:blue;
+    margin-right: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.red h1 {
+    color:red;
+    margin-left: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
