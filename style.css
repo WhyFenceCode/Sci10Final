@@ -132,6 +132,7 @@ body{
     bottom: 0vh;
     z-index: 7;
     background-color: rgb(230, 230, 230);
+    transition: bottom 0.4s ease-in-out;
 }
 
 .question-text {
