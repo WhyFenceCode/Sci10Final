@@ -73,41 +73,21 @@ let a300 = [
 ]
 
 let q400 = [
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "Are there large propellant margins on the MLV?",
+  "What is the throttle range of the engines on the MLV?",
+  "What fuel do the engines burn?",
+  "What occurs at heat shield separation other than the heat shield leaving?",
+  "How high is the MLV when it deploys its parachute?",
+  "What is the cruise stage that is attached to the MLV?"
 ]
 
 let a400 = [
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "No, they are very small",
+  "400 – 3060 newtons",
+  "Hydrazine",
+  "The radar turns on and guidance begins",
+  "11km above the surface",
+  " The systems needed for the 9-month journey to mars"
 ]
 
 let q500 = [
