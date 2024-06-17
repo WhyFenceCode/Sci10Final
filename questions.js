@@ -131,39 +131,19 @@ let a400 = [
 ]
 
 let q500 = [
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "Does the MLV have its own flight computer?",
+  "How much fuel will the MLV carry?",
+  "What is an inquiry question about the MLV?",
+  "What would a way be to maker the lander more economical?",
+  "What is an option to replace the rocket motors?",
+  "What can be done to improve MLV? "
 ]
 
 let a500 = [
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "No, it uses the rover’s computer for its computations",
+  "It will carry 390 kg of propellant",
+  "What impact does the MLV have on the scientific evidence collected by its rovers through the environmental impacts it causes?",
+  "Making it out of carbon fiber would reduce the costs to launch the vehicle into space",
+  "As mars has an atmosphere it may be possible to make the landers relies on a helicopter-like design to lower it down to the ground",
+  "Skycrane could be improved by making it reusable, so that it does not crash onto the surface and instead returns to earth"
 ]
