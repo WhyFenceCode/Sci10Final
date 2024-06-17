@@ -1,39 +1,19 @@
 let q100 = [
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "At what point does the cruise stage separate?",
+  "How hot will the outside of the MLV get during entry?",
+  "What does MLV stand for?",
+  "Name a rover that the MLV was used for:",
+  "What part separates after the parachute deploys?",
+  "How low can the engines throttle (percentage)?"
 ]
 
 let a100 = [
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "10 minutes prior to atmospheric entry",
+  "1300C",
+  "Mars Landing Vehicle",
+  "Perseverance or Curiosity",
+  "Heat shield separation",
+  "They can go down to almost 1%"
 ]
 
 let q200 = [
