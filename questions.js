@@ -37,41 +37,21 @@ let a100 = [
 ]
 
 let q200 = [
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "How hot will the inside of the MLV get during entry?",
+  "What occurs just after atmospheric entry?",
+  "How fast is the MLV moving when it deploys its parachute?",
+  "Is the MLV parachute supersonic or subsonic in design?",
+  "How wide is the parachute of the MLV?",
+  "How many propellant tanks does the MLV have?"
 ]
 
 let a200 = [
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "Room temperature",
+  "Small thrusters guide the MLV back on course",
+  "1600km/h",
+  "Supersonic",
+  "21.5 meters",
+  "4"
 ]
 
 let q300 = [
