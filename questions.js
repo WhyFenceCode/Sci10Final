@@ -5,7 +5,7 @@ let q100 = [
   "Name a rover that the MLV was used for:",
   "What part separates after the parachute deploys?",
   "How low can the engines throttle (percentage)?"
-]
+];
 
 let a100 = [
   "10 minutes prior to atmospheric entry",
@@ -14,7 +14,7 @@ let a100 = [
   "Perseverance or Curiosity",
   "Heat shield separation",
   "They can go down to almost 1%"
-]
+];
 
 let q200 = [
   "How hot will the inside of the MLV get during entry?",
@@ -23,7 +23,7 @@ let q200 = [
   "Is the MLV parachute supersonic or subsonic in design?",
   "How wide is the parachute of the MLV?",
   "How many propellant tanks does the MLV have?"
-]
+];
 
 let a200 = [
   "Room temperature",
@@ -32,7 +32,7 @@ let a200 = [
   "Supersonic",
   "21.5 meters",
   "4"
-]
+];
 
 let q300 = [
   "During what procedure is the MLV moving at it’s slowest?",
@@ -41,7 +41,7 @@ let q300 = [
   "Before the Skycrane maneuver begins what speed does the MLV decelerate to?",
   "Is it environmentally friendly to send MLV’s to mars?",
   "What will the engine do if it goes bellow 1% throttle?"
-]
+];
 
 let a300 = [
   "Skycrane Maneuver",
@@ -50,7 +50,7 @@ let a300 = [
   "The MLV decelerates itself to a speed of 2km/hour",
   "We feel that it is not, but neither are any other solutions humanity has for sending rovers to mars",
   "It will shut down"
-]
+];
 
 let q400 = [
   "Are there large propellant margins on the MLV?",
@@ -59,7 +59,7 @@ let q400 = [
   "What occurs at heat shield separation other than the heat shield leaving?",
   "How high is the MLV when it deploys its parachute?",
   "What is the cruise stage that is attached to the MLV?"
-]
+];
 
 let a400 = [
   "No, they are very small",
@@ -68,7 +68,7 @@ let a400 = [
   "The radar turns on and guidance begins",
   "11km above the surface",
   " The systems needed for the 9-month journey to mars"
-]
+];
 
 let q500 = [
   "Does the MLV have its own flight computer?",
@@ -77,7 +77,7 @@ let q500 = [
   "What would a way be to maker the lander more economical?",
   "What is an option to replace the rocket motors?",
   "What can be done to improve MLV? "
-]
+];
 
 let a500 = [
   "No, it uses the rover’s computer for its computations",
@@ -86,4 +86,4 @@ let a500 = [
   "Making it out of carbon fiber would reduce the costs to launch the vehicle into space",
   "As mars has an atmosphere it may be possible to make the landers relies on a helicopter-like design to lower it down to the ground",
   "Skycrane could be improved by making it reusable, so that it does not crash onto the surface and instead returns to earth"
-]
+];
