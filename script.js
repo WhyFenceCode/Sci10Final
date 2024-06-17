@@ -3,20 +3,20 @@ var redscore = 0;
 var bluescore = 0;
 var currentAwns = "";
 
-var point100q = ["Q1 100", "Q2 100", "Q3 100", "Q4 100", "Q5 100"];
-var point100a = ["A1 100", "A2 100", "A3 100", "A4 100", "A5 100"];
+var point100q = ["At what point does the cruise stage separate?","How hot will the outside of the MLV get during entry?","What does MLV stand for?","Name a rover that the MLV was used for:","What part separates after the parachute deploys?","How low can the engines throttle (percentage)?"];
+var point100a = ["10 minutes prior to atmospheric entry","1300C","Mars Landing Vehicle","Perseverance or Curiosity","Heat shield separation","They can go down to almost 1%"];
 
-var point200q = ["Q1 200", "Q2 200", "Q3 200", "Q4 200", "Q5 200"];
-var point200a = ["A1 200", "A2 200", "A3 200", "A4 200", "A5 200"];
+var point200q = ["How hot will the inside of the MLV get during entry?","What occurs just after atmospheric entry?","How fast is the MLV moving when it deploys its parachute?","Is the MLV parachute supersonic or subsonic in design?","How wide is the parachute of the MLV?","How many propellant tanks does the MLV have?"];
+var point200a = ["Room temperature","Small thrusters guide the MLV back on course","1600km/h","Supersonic","21.5 meters","4"];
 
-var point300q = ["Q1 300", "Q2 300", "Q3 300", "Q4 300", "Q5 300"];
-var point300a = ["A1 300", "A2 300", "A3 300", "A4 300", "A5 300"];
+var point300q = ["During what procedure is the MLV moving at it’s slowest?","What is the procedure called when the Skycrane drops free of the MLV?","When does the Skycrane maneuver begin?","Before the Skycrane maneuver begins what speed does the MLV decelerate to?","Is it environmentally friendly to send MLV’s to mars?","What will the engine do if it goes bellow 1% throttle?"];
+var point300a = ["Skycrane Maneuver","Back shell separation","The Skycrane maneuver begins when the MLV is around 20 meters from the ground","The MLV decelerates itself to a speed of 2km/hour","We feel that it is not, but neither are any other solutions humanity has for sending rovers to mars","It will shut down"];
 
-var point400q = ["Q1 400", "Q2 400", "Q3 400", "Q4 400", "Q5 400"];
-var point400a = ["A1 400", "A2 400", "A3 400", "A4 400", "A5 400"];
+var point400q = ["Are there large propellant margins on the MLV?","What is the throttle range of the engines on the MLV?","What fuel do the engines burn?","What occurs at heat shield separation other than the heat shield leaving?","How high is the MLV when it deploys its parachute?","What is the cruise stage that is attached to the MLV?"];
+var point400a = ["No, they are very small","400 – 3060 newtons","Hydrazine","The radar turns on and guidance begins","11km above the surface"," The systems needed for the 9-month journey to mars"];
 
-var point500q = ["Q1 500", "Q2 500", "Q3 500", "Q4 500", "Q5 500"];
-var point500a = ["A1 500", "A2 500", "A3 500", "A4 500", "A5 500"];
+var point500q = ["Does the MLV have its own flight computer?","How much fuel will the MLV carry?","What is an inquiry question about the MLV?","What would a way be to maker the lander more economical?","What is an option to replace the rocket motors?","What can be done to improve MLV?"];
+var point500a = ["No, it uses the rover’s computer for its computations","It will carry 390 kg of propellant","What impact does the MLV have on the scientific evidence collected by its rovers through the environmental impacts it causes?","Making it out of carbon fiber would reduce the costs to launch the vehicle into space","As mars has an atmosphere it may be possible to make the landers relies on a helicopter-like design to lower it down to the ground","Skycrane could be improved by making it reusable, so that it does not crash onto the surface and instead returns to earth"];
 
 function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min) ) + min;
